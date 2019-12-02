@@ -1,0 +1,29 @@
+						TÌM HIỂU VỀ LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG TRONG JAVA
+						
+	Các khái niệm cần chú ý :
+								CLASS			|  			OBJECT
+												|			
+												|			BMW
+							car					| 			CR-V
+												|			...
+												
+												
+	Một số quy định :
+					+ Tên class là : 
+									- Danh từ
+									- Viết hoa
+					+ 
+	Phạm vi của class: 
+					+ public
+					+ private
+					+ ... (tài liệu : java document)
+					
+	Chú ý: Trong 1 file java : chỉ có 1 class là public
+	
+	Class object = new Class();
+	
+	
+	
+Tóm lại :
+	+ Học cách khai báo class
+	+ 
