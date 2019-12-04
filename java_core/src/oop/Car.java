@@ -6,7 +6,7 @@ public class Car {
 		int height;
 		int weight;
 		int speed;
-		String s = "Bạn đã lấy được thuộc tính của class.";
+		String thuoc_tinh = "Bạn đã lấy được thuộc tính của class.";
 		// khởi tạo hành vi Stop()
 		public void Stop() {
 
@@ -22,7 +22,7 @@ public class Car {
 		{
 			
 			Car audi = new Car();
-			System.out.println(audi.s);
+			System.out.println(audi.thuoc_tinh);
 			
 		}
 		
