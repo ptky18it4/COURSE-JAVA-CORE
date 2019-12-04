@@ -5,6 +5,5 @@ public class Person {
 		int 	age;
 		float 	height;
 		String  homeTown;
-		String  school;
-		
+		String  school;	
 }
