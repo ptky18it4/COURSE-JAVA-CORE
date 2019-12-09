@@ -21,7 +21,9 @@
 	Chú ý: Trong 1 file java : chỉ có 1 class là public
 	
 	Class object = new Class();
-	
+	Trong java/ bài ghi đè / trong slide 
+	Animal myDog = new Dog()
+	Kiểu_dữ_liệu tên biến = new Class();
 	
 	
 Tóm lại :
@@ -63,3 +65,12 @@ Cách dùng : - import package_name.class_name
 			---------------
 			|	sup class | lớp con
 			--------------
+-----------------------------------------------------------------------------------
+				TÍNH ĐA HÌNH
+- Được thể hiện thông qua việc ghi đè lại phương thức.
+- Dùng abstract class cho những phương thức chưa biết thực hiện ra sao.
+- VD: Con người có các phương thức sau :
+		Bay  -- abstract
+		Nhảy
+		Chạy  
+- 
