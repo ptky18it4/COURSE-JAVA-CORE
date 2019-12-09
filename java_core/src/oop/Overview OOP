@@ -27,3 +27,39 @@
 Tóm lại :
 	+ Học cách khai báo class
 	+ 
+Tính đóng gói:
+Không cho người dùng truy cập trực tiếp vào các thuộc tính của đối tượng
+
+--------------------------------------------------------------------------------
+Cách sử dụng class của package A trong package
+
+Cách dùng : - import package_name.class_name
+				vd : import oop_research.Animal;
+			-  import many class from package
+				vd : import oop_research.*;
+--------------------------------------------------------------------------------
+						TÍNH THỪA KẾ TRONG JAVA
+1. extends : dùng từ khóa extend để thừa kế những thuộc tính :- tránh lặp lại code
+	public class Person () {
+		public String name;
+		public int ....;
+		
+		public void walk(){
+		System.out.println("Walk");
+	}					
+	
+	public class Student extends Person () {
+		// Dùng từ khóa extends ở trên, Student đã được thừa kế lại các thuộc tính của Person()
+			
+		public float point;  // Bổ sung thuộc tính ở thằng học sinh
+	}
+
+		/* Mô hình  */
+		
+			-------------
+			| Super class | lớp cha
+			--------------
+				|
+			---------------
+			|	sup class | lớp con
+			--------------
