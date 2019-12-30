@@ -68,9 +68,68 @@ Cách dùng : - import package_name.class_name
 -----------------------------------------------------------------------------------
 				TÍNH ĐA HÌNH
 - Được thể hiện thông qua việc ghi đè lại phương thức.
+- Biến trong abstract class cũng giống như 1 class bình thường. Tuy nhiên, ta thường để ở private
 - Dùng abstract class cho những phương thức chưa biết thực hiện ra sao.
 - VD: Con người có các phương thức sau :
 		Bay  -- abstract
 		Nhảy
 		Chạy  
+- Để thừa kế trong Abstract class thì dùng từ khóa extends
+- Để thừa kế 1 phương thức absctract class abc(); thì cần @overrice
+
+------------------------------------------------------------------------------------
+
+					INTERFACE
+- Trong interface : tất cả các method đều là abstract : GHI NHỚ LUÔN NHA BẠN TRẺ
+
+- Mọi thuộc tính trong interface đều là public static final:
+Chú ý các từ khóa : final
+VD:
+	public statis final int WEIGHT = 10; 
+			HOẶC 
+	int WEIGHT = 10; (Thì nó vẫn hiểu như đoạn code ở trên)
+Trong các class khác, nếu muốn dùng WEIGHT thì k cần khởi tạo lại mà chỉ cần gọi: ClassName.WEIGHT
+- Để thừa kế 1 phương thức trong Interface : dùng từ khóa "implements"
+- Không được khai báo constructor
+
+
+--------------------------------------CÂU HỎI XƯƠNG MÁU-----------------------------------
+															
+Trong java không cho đa thừa kế :
+- Vì nếu như gọi 2 class có cùng phương thức (method) thì sẽ ra sao.
+- Mặc dù 2 class khác nhau về phương thức
+- Trong java cho đa thừa kế các class interface và đơn thừa kế abstracts
 - 
+--------------------------------------------------------------------------------
+							ENUM
+- ENUM : là kiểu liệt kế:
+- Dữ liệu lưu trong ENUM thuộc : public static final ( tương ứng trong class ).
+- Dữ liệu không thể được gán kiểu như này: LOW = 1 (nhớ nhá : không thể)
+- Một số hàm trong ENUM : ordinal(), ... tham khảo thêm ở w3school.
+- ENUM giống class: cũng có constructor():
+- Không thể khởi tạo 1 đối tượng trong ENUM:(tham khảo thêm)
+-------------------------------------------------------------------------------------------
+						INPUT - OUTPUT
+- Phần này khá dễ, cần tham khảo thêm:
+- Chú ý : cần import java.util.Scanner:
+//	String name = "Đoàn Trần Hiếu My";
+
+-------------------------------------------------------------------------------------------
+
+							ARRAY-LIST / LINKLIST (tham khảo thêm)
+- Trong java có hỗ trợ ArrayList trong package java.util
+- Ưu điểm :
+			+ Kích thước động.
+			+ Tránh lãng phí tài nguyên
+			+ Thao tác sẽ ít phức tạp hơn
+	+ CÚ PHÁP : - xem trong slide :  https://github.com/ltphuc5594/19jsp06.git
+	+ MỘT SỐ HÀM TRONG ARRAYLIST:
+		+ x.get();
+		+ x.set();
+		+ x.remove(index);
+		+ x.clear();	
+- Nhược điểm : 
+
+-------------------------------------------------------------------------------------------
+								HASHMAP
+
