@@ -11,6 +11,7 @@ public class Magazine extends Document {
 		this.numberPublished = numberPublished;
 		this.monthPublished = monthPublished;
 		setTypeDocuments(TypeDocuments.MAGAZINE);
+		System.out.println();
 	}
 
 	// ===========================GENDER GETTER

@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - InThapHinh",
+            "request": "launch",
+            "mainClass": "OnTapJava.InThapHinh",
+            "projectName": "java_core"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DiTimAnSo",
+            "request": "launch",
+            "mainClass": "OnTapJava.DiTimAnSo",
+            "projectName": "java_core"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BangCuuChuong",
+            "request": "launch",
+            "mainClass": "OnTapJava.BangCuuChuong",
+            "projectName": "java_core"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MainClass",
+            "request": "launch",
+            "mainClass": "Exercises_3.MainClass",
+            "projectName": "java_core"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - MainClass",
             "request": "launch",
             "mainClass": "practice_2.MainClass",

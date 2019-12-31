@@ -17,8 +17,7 @@ public class MainClass {
 		admissions.addContestants(contestant_Block_C);
 		admissions.showListContestants();
 		System.out.println("Result search !");
-		admissions.searchListContestants("Literature");
-		admissions.showListContestants();
+		System.out.println(admissions.searchListContestants(PriorityLevel.AREA_1));
 	}
 	
 }

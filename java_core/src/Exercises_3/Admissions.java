@@ -15,15 +15,16 @@ public class Admissions {
 		listContestants.add(contestant);
 	}
 
-	public ArrayList<Contestant> searchListContestants(String priorityLevel) {
+	public ArrayList<Contestant> searchListContestants(PriorityLevel priorityLevel) {
 
-		ArrayList<Contestant> listContestants = new ArrayList<Contestant>();
+		ArrayList<Contestant> list = new ArrayList<Contestant>();
 
 		for (Contestant contestant : listContestants) {
-			if (contestant.getFullName() == priorityLevel) {
-				listContestants.add(contestant);
+			if (contestant.getPriorityLevel() != priorityLevel) {
+				System.out.println("Identification number " + priorityLevel + " not exist !");
 			} else {
-				System.out.println("Identification number " + priorityLevel + "not exist !");
+				System.out.println("Identification number " + priorityLevel + " is exist !");
+				list.add(contestant);
 			}
 		}
 		return listContestants;
