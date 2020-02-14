@@ -1,0 +1,44 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BaiTapThucHanh",
+            "request": "launch",
+            "mainClass": "OnTapJava.BaiTapThucHanh"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BangCuuChuong",
+            "request": "launch",
+            "mainClass": "OnTapJava.BangCuuChuong"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DiTimAnSo",
+            "request": "launch",
+            "mainClass": "OnTapJava.DiTimAnSo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-InThapHinh",
+            "request": "launch",
+            "mainClass": "OnTapJava.InThapHinh"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MayATM",
+            "request": "launch",
+            "mainClass": "OnTapJava.MayATM"
+        }
+    ]
+}

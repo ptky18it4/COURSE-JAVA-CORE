@@ -11,7 +11,6 @@ public class DiTimAnSo {
         int Answer = 0;
         int yourNumber = 0;
             do {
-                
             int secretNumer = (int)(Math.random() * range) + MIN_NUMBER;
     
             System.out.println(secretNumer);

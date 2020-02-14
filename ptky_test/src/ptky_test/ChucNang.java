@@ -8,7 +8,6 @@ public class ChucNang {
 		listCBGV = new ArrayList<CBGV>(); // Cách 2 : Khởi tạo trong 1 Constructor
 	}
 	
-	
 	public void addCBGV(CBGV cbgv) {
 		listCBGV.add(cbgv);
 	}

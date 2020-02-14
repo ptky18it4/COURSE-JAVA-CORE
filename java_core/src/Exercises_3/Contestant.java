@@ -70,5 +70,6 @@ public class Contestant {
 		System.out.println("Priority level : 						" + priorityLevel);
 		System.out.println("Block :			 					" + block);
 	}
+	
 
 }

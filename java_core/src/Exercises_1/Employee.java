@@ -1,5 +1,12 @@
 package Exercises_1;
 
+/*
+ * (©) Copyright  $(year) Trung Ky-kenneth. All Right Reserved.
+ * 
+ * @author $(user)
+ * @date $(date)
+ * $version 1.0
+*/
 public class Employee extends Officials {
 	private int level;
 	private Gender gender;

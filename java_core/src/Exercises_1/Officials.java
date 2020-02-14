@@ -50,7 +50,6 @@ public class Officials {
 		System.out.println("Age : 		"+ age);
 		System.out.println("Gender : 	"+ genDer);
 		System.out.println("Address : 	"+ add);
-
 	}
 
 }

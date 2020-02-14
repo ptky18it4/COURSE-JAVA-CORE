@@ -1,10 +1,10 @@
 package ptky_test;
 
+// Ở đây bị sai rồi nha. Nguoi extends CBGV LÀ SAI /  CBGV extends Nguoi mới đúng. 
 public class Nguoi extends CBGV {
 	private String hoTen;
 	private int tuoi;
 	private String queQuan;
-	
 	
 	public Nguoi(float luongCung, float luongThuong, float tienPhat, float luongThuc, String maSoGV, String hoTen,
 			int tuoi, String queQuan) {
